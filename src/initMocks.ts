@@ -1,0 +1,3 @@
+const initMocks = () => {};
+
+export { initMocks };

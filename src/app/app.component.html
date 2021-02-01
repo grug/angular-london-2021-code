@@ -7,7 +7,7 @@
   <div class="grid-container">
     <div class="grid-item" *ngFor="let widget of widgets">
       <div class="widget-content">
-        <div *ngIf="widget.id > 100">This is a dangerous widget</div>
+        <div *ngIf="widget.id > 100">Widget ids above 100 are not supported</div>
         {{ widget.id }}
       </div>
     </div>
